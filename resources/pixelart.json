@@ -1,0 +1,29 @@
+{
+  "septembit" : [
+    { "number" : "01", "name" : "Weapon" },
+    { "number" : "02", "name" : "Shield" },
+    { "number" : "03", "name" : "Clothing" },
+    { "number" : "04", "name" : "Map" },
+    { "number" : "05", "name" : "Potion" },
+    { "number" : "06", "name" : "Bag" },
+    { "number" : "07", "name" : "Torch" },
+    { "number" : "08", "name" : "Pet" },
+    { "number" : "09", "name" : "Bard" },
+    { "number" : "10", "name" : "Tankard" },
+    { "number" : "11", "name" : "Food" },
+    { "number" : "12", "name" : "NPC" },
+    { "number" : "13", "name" : "Mushroom" },
+    { "number" : "14", "name" : "Slime" },
+    { "number" : "15", "name" : "Fairy" },
+    { "number" : "16", "name" : "Portal" },
+    { "number" : "17", "name" : "Rat" },
+    { "number" : "18", "name" : "Skeleton" },
+    { "number" : "19", "name" : "Goblin" },
+    { "number" : "20", "name" : "Orc" },
+    { "number" : "21", "name" : "Evil Eye" },
+    { "number" : "22", "name" : "Trap" },
+    { "number" : "23", "name" : "Chest" },
+    { "number" : "24", "name" : "Treasure" },
+    { "number" : "25", "name" : "Boss Key" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "projectList" : [
+    {
+      "title" : "The Random Dungeon",
+      "summary": "This is a really simple game which I made during my university degree where you must explore dungeons which are different every time you enter them. This game was made using no engine, only with C++ and OpenGL (legacy immediate-mode), but I like the final result.",
+      "imageFolder" : "/images/games/trd/",
+      "viewmoreSrc" : "/files/the_random_dungeon.zip",
+      "viewmoreText" : "Download project"
+    },
+    {
+      "title" : "Monkey Chairtory",
+      "summary": "Monkey Chairtory is a AI simulator where some gorillas work in a chair factory, collaborating with humans. Humans can patrol and supply food to the gorillas. On the other hand, gorillas work moving logs, treating them into wooden planks, and creating chairs with those planks.",
+      "imageFolder" : "/images/games/mkch/",
+      "viewmoreSrc" : "https://github.com/MarioSimon/MonkeyChairtory",
+      "viewmoreText" : "View on GitHub"
+    },
+    {
+      "title" : "Golding Over It",
+      "summary": "A basic game made with Unreal Engine 4 Blueprints. In this game you, as Gold Man, must collect 3 core stones and reach a bonfire to win. The core stones are distributed throughout the tower. Fire and lava destroy you, and gold coins recover you.",
+      "imageFolder" : "/images/games/goi/",
+      "viewmoreSrc" : "/files/golding_over_it.zip",
+      "viewmoreText" : "Download project"
+    }
+  ]
+}

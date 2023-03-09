@@ -1,0 +1,16 @@
+html {
+  image-rendering: pixelated;
+}
+
+#assets img {
+  padding: 11px;
+}
+
+#septembit img {
+  padding: 22px;
+  border-radius: 0;
+}
+
+#logos img {
+  border-radius: 0;
+}

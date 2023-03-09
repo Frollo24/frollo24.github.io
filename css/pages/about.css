@@ -1,0 +1,11 @@
+#about_me {
+  padding: 155px 0;
+  opacity: 0;
+}
+
+#about_me figure img {
+  border-radius: 50%;
+  width: 480px;
+  height: 480px;
+  transition: 0.2s ease-in-out;
+}

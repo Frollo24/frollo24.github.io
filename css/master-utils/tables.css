@@ -1,0 +1,27 @@
+table, tr, th, td {
+  border: 1px solid black;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+}
+
+thead tr th {
+  font-size: 1.15rem;
+  padding: 3px 0;
+}
+
+.tabletitle {
+  font-size: 1.25rem;
+  padding: 7px 0;
+  color: red;
+}
+
+td {
+  width: 25%;
+  padding: 0 4px;
+}
