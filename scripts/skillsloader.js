@@ -1,4 +1,7 @@
-const { default: skills } = await import('../resources/skills.json', { assert: { type : "json" } } );
+//const { default: skills } = await import('../resources/skills.json', { assert: { type : "json" } } );
+$.getJSON('../resources/skills.json', function(json){
+  const skills = json;
+
 
 const table_languages = document.getElementById("table_languages");
 const table_apis = document.getElementById("table_apis");
@@ -50,3 +53,5 @@ let script = document.createElement('script');
 script.src = '/scripts/skillslevel.js';
 script.async = false;
 document.body.append(script);
+
+});
