@@ -50,6 +50,10 @@ section p {
   font-size: 1.25rem;
 }
 
+section .viewmore {
+  font-size: 1.15rem;
+}
+
 footer {
   padding: 10px;
 }
