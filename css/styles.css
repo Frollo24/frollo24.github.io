@@ -1,0 +1,89 @@
+:root{
+  --bg-color-selection: rgba(184, 8, 8, 1);
+  --color-selection: white;
+  --color-navlinks: hsla(0, 100%, 5%, 1);
+  --color-navlinks-visited: hsla(0, 35%, 65%, 1);
+  --color-navlinks-hover: rgba(255, 48, 48, 1);
+  --color-navlinks-active: rgba(199, 16, 16, 1);
+  --bg-color-hover: white;
+  --bg-color-active: rgba(238, 238, 238, 1);
+  --color-active: rgba(184,8,8,1);
+  --color-visited: darkred;
+  --color-footer: white;
+  --color-links: rgba(232,16,0,1);
+}
+
+::selection{
+  background-color: var(--bg-color-selection);
+  color: var(--color-selection);
+}
+
+html {
+  background-color: rgb(204, 204, 204);;
+}
+
+header, footer {
+  background: rgb(232, 16, 0);
+  background: -webkit-linear-gradient(left, rgba(153,0,16,1) 0%, rgba(232,16,0,1) 100%);
+  background: -o-linear-gradient(left, rgba(153,0,16,1) 0%, rgba(232,16,0,1) 100%);
+  background: linear-gradient(to right, rgba(153,0,16,1) 0%, rgba(232,16,0,1) 100%);
+}
+
+main {
+  background: rgb(204, 204, 204);
+  background: -webkit-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to top right, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+footer {
+  color: var(--color-footer);
+}
+
+nav ul li {
+  transition: 0.1s ease-in-out;
+}
+
+nav ul li:hover {
+  background-color: var(--bg-color-hover);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-links);
+  transition: 0.1s ease-in-out;
+}
+
+li > a, #author > a {
+  color: var(--color-navlinks);
+}
+
+li > a:visited, #author > a:visited {
+  color: var(--color-navlinks-visited);
+}
+
+li > a:hover, #author > a:hover, a:hover {
+  color: var(--color-navlinks-hover);
+}
+
+#author > a:hover {
+  color: white;
+}
+
+a:active {
+  color: var(--color-active);
+}
+
+li > a:active {
+  color: var(--color-navlinks-active);
+  background-color: var(--bg-color-active);
+  transition: 0.1s ease-in-out;
+}
+
+#author > a:active {
+  color: rgba(238, 238, 238, 1);
+}
+
+li > a::selection, #author > a::selection {
+  background-color: rgba(106, 0, 0, 1);
+}
