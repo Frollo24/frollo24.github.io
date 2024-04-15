@@ -1,0 +1,136 @@
+{
+  "languages" : [
+    {
+      "name" : "C++",
+      "image" : "cplusplus.png",
+      "level" : 5,
+      "project" : "Luminx",
+      "comments" : "An OpenGL application set for testing and exploring various light effects"
+    },
+    {
+      "name" : "C#",
+      "image" : "csharp.png",
+      "level" : 4,
+      "project" : "Empire Earth",
+      "comments" : "A basic multi-threaded console application which simulates a military game"
+    },
+    {
+      "name" : "Python",
+      "image" : "python.png",
+      "level" : 4,
+      "project" : "Mitsuba Module",
+      "comments" : "A module wrapper which uses Mitsuba 3 as a pathtracer for rendering the G-buffer of a scene from many viewpoints"
+    },
+    {
+      "name" : "HTML",
+      "image" : "html.png",
+      "level" : 3,
+      "project" : "This website",
+      "comments" : "Structure and Emmet"
+    },
+    {
+      "name" : "CSS",
+      "image" : "css.png",
+      "level" : 3,
+      "project" : "This website",
+      "comments" : "Roboto Font, coloring, transitions and figures"
+    },
+    {
+      "name" : "JavaScript",
+      "image" : "javascript.png",
+      "level" : 3,
+      "project" : "This website",
+      "comments" : "Header and footer loading, fading effect and sticky header"
+    },
+    {
+      "name" : "Java",
+      "image" : "java.png",
+      "level" : 3,
+      "project" : "Memory_Leak",
+      "comments" : "A really basic asteroids avoiding game made with Android Studio using Java as language"
+    },
+    {
+      "name" : "SQL",
+      "image" : "sql.png",
+      "level" : 2,
+      "project" : "Mock Brawlhalla",
+      "comments" : "A simple console application made with SQLite and Java which simulates Brawlhalla gameplay flow"
+    }
+  ],
+  "apis" : [
+    {
+      "name" : "OpenGL",
+      "image" : "opengl.png",
+      "level" : 5,
+      "project" : "OpenEngine",
+      "comments" : "A render engine using C++, GLEW, FreeGLUT and ImGui"
+    },
+    {
+      "name" : "Vulkan",
+      "image" : "vulkan.png",
+      "level" : 4,
+      "project" : "Magma",
+      "comments" : "A render engine where I implemented Depth prepass, SSAO, Physically Based Rendering and Skybox rendering"
+    },
+    {
+      "name" : "CUDA",
+      "image" : "cuda.png",
+      "level" : 2,
+      "project" : "<i style=\"color: red;\">No project</i>",
+      "comments" : "I've used CUDA on a few ocassions, even from a cluster, but I've made no relevant projects using CUDA at the moment."
+    }
+  ],
+  "engines" : [
+    {
+      "name" : "Unity",
+      "image" : "unity.png",
+      "level" : 5,
+      "project" : "ReDungeon: Scuffed",
+      "comments" : "A ReDungeon's Nitrome clone made in Unity for Android. It's a bit buggy, but it was made in 10 hours"
+    },
+    {
+      "name" : "Pygame",
+      "image" : "pygame.png",
+      "level" : 4,
+      "project" : "Pygame Game",
+      "comments" : "A platformer game that I made while teaching a guy online. It has no name at the moment"
+    },
+    {
+      "name" : "Unreal",
+      "image" : "unreal.png",
+      "level" : 3,
+      "project" : "Golding Over It",
+      "comments" : "A \"Getting Over It\" clone made with Unreal Engine 4 Blueprints"
+    },
+    {
+      "name" : "GameMaker",
+      "image" : "gamemaker.png",
+      "level" : 3,
+      "project" : "Square's Job",
+      "comments" : "The first game I've made with a proper game engine. A game based in Ocean's Eleven's plot"
+    },
+    {
+      "name" : "Phaser3",
+      "image" : "phaser3.png",
+      "level" : 2,
+      "project" : "<i style=\"color: red;\">Not available yet</i>",
+      "comments" : "A basic game was made, but needs to be refactored"
+    }
+  ],
+  "frameworks" : [
+    {
+      "name" : ".NET Core",
+      "image" : "dotnet.png",
+      "level" : 3,
+      "project" : "Server API for Unity game",
+      "comments" : "A basic Unity game which connects to a REST API made with .NET Core in C#"
+    },
+    {
+      "name" : "Mixed Reality Toolkit",
+      "image" : "mrtk.png",
+      "level" : 2,
+      "project" : "Mixed Reality Apps",
+      "comments" : "Some basic Unity MR applications I made for Microsoft HoloLens 2"
+    }
+  ]
+}

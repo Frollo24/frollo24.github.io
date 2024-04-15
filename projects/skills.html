@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/sticky.css">
+    <link rel="stylesheet" href="/css/pages/projects.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <header id="header">
@@ -15,10 +17,68 @@
     <main>
       <section>
         <article class="center">
-          <h1 id="welcome">Welcome!</h1>
+          <h1>Skills</h1>
           <p>
-            At the moment this website is under development. Maybe if you reload it enough times, it will change ;)
+            To classify my skills, I've come up with a method to determine my level
+            of expertise in each of the technologies I have used throughout my
+            professional career, which consists of a 1 to 5 star rating with the
+            following meaning:
           </p>
+          <br>
+          <table id="table_legend">
+            <thead>
+              <tr>
+                <th class="tabletitle" colspan="2">Legend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="skill-level">5</td>
+                <td>
+                  I consider myself an expert with this technology. I can always
+                  improve, but I feel very comfortable using this technology in
+                  a project.
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-level">4</td>
+                <td>I've used this technology several times and I can do advanced stuff with it.</td>
+              </tr>
+              <tr>
+                <td class="skill-level">3</td>
+                <td>
+                  I know some intermediate things about this technology, so I
+                  could manage a little project myself.
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-level">2</td>
+                <td>I've used this technology, but I only know basic features about it.</td>
+              </tr>
+              <tr>
+                <td class="skill-level">1</td>
+                <td>I've started to learn this technology, so I won't be experienced with that.</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <div>
+            <table id="table_languages">
+              <!-- Content included from JSON file -->
+            </table>
+            <br>
+            <table id="table_apis">
+              <!-- Content included from JSON file -->
+            </table>
+            <br>
+            <table id="table_engines">
+              <!-- Content included from JSON file -->
+            </table>
+            <br>
+            <table id="table_frameworks">
+              <!-- Content included from JSON file -->
+            </table>
+          </div>
         </article>
       </section>
     </main>
@@ -27,5 +87,7 @@
     </footer>
     <script type="text/javascript" src="/scripts/bookendsloader.js"></script>
     <script type="text/javascript" src="/scripts/sticky.js"></script>
+    <script type="module" src="/scripts/skillsloader.js"></script>
+    <script defer type="text/javascript" src="/scripts/skillslevel.js"></script>
   </body>
 </html>
