@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/sticky.css">
+    <link rel="stylesheet" href="/css/pages/projects.css">
   </head>
   <body>
     <header id="header">
@@ -16,10 +17,142 @@
     <main>
       <section>
         <article class="center">
-          <h1 id="welcome">Welcome!</h1>
+          <h1>Projects</h1>
           <p>
-            At the moment this website is under development. Maybe if you reload it enough times, it will change ;)
+            In this section I show some of the projects that I've done related to
+            game development or computer graphics, as these are the areas where
+            I stand out the most. This page is divided in three categories: skills
+            (where I explain briefly how I classify my ability with each technology),
+            computer graphics and videogames (showing some of the projects I've
+            done in each category respectively).
           </p>
+        </article>
+        <div class="separator"></div>
+        <article class="center">
+          <h1>Skills</h1>
+          <p>
+            To classify my skills, I've come up with a method to determine my level
+            of expertise in each of the technologies I have used throughout my
+            professional career, which consists of a 1 to 5 star rating with the
+            following meaning:
+          </p>
+          <br>
+          <table id="table_legend">
+            <thead>
+              <tr>
+                <th class="tabletitle" colspan="2">Legend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="skill-level">5</td>
+                <td>
+                  I consider myself kind of an expert with this technology. I
+                  can always improve, but I feel very comfortable using this one
+                  in a project.
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-level">4</td>
+                <td>I've used this technology several times and I can do advanced stuff with it.</td>
+              </tr>
+              <tr>
+                <td class="skill-level">3</td>
+                <td>
+                  I know some intermediate things about this technology, so I
+                  could manage a little project myself.
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-level">2</td>
+                <td>I've used this technology, but I only know basic features about it.</td>
+              </tr>
+              <tr>
+                <td class="skill-level">1</td>
+                <td>I've started to learn this technology, so I won't be experienced with that.</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <a class="viewmore" href="/projects/skills.html">View my skills</a>
+        </article>
+        <div class="separator"></div>
+        <article class="center">
+          <h1>Computer Graphics</h1>
+          <p>
+            Despite having a bachelor's degree in Videogame Design and Development,
+            the area where I have specialized the most is computer graphics. That's
+            why most of my projects are related to this subject: render engines,
+            custom shaders, pathtracers...
+          </p>
+          <div class="features">
+            <figure>
+              <a href="https://github.com/Frollo24/UnityGrassShader">
+                <img src="/images/computergraphics/ugs/01.png" alt="Unity Grass Shader">
+              </a>
+              <figcaption>Unity Grass Shader</figcaption>
+            </figure>
+            <figure>
+              <a href="https://github.com/Frollo24/Magma">
+                <img src="/images/computergraphics/mgm/01.png" alt="Magma Engine">
+              </a>
+              <figcaption>Magma Engine</figcaption>
+            </figure>
+            <figure>
+              <a href="https://www.linkedin.com/posts/adri%C3%A1n-salgado-jimeno-2771a3233_hola-os-quer%C3%ADa-mostrar-openengine-un-motor-activity-6991750586358501376-yFLo/">
+                <img src="/images/computergraphics/oen/01.png" alt="Open Engine">
+              </a>
+              <figcaption>Open Engine</figcaption>
+            </figure>
+          </div>
+          <br>
+          <a class="viewmore" href="/projects/computergraphics.html">View more...</a>
+        </article>
+        <div class="separator"></div>
+        <article class="center">
+          <h1>Videogames</h1>
+          <p>
+            When I've made videogames within a team, the role I generally assumed
+            within the project has been the role of programmer/developer. For this
+            reason, almost all videogame projects that I show here are centered
+            on code quality.
+          </p>
+          <br>
+          <div class="features">
+            <figure>
+              <a href="https://github.com/Frollo24/PolePosition2">
+                <img src="/images/games/pp2/01.png" alt="Pole Position 2.0.2">
+              </a>
+              <figcaption>Pole Position 2.0.2</figcaption>
+            </figure>
+            <figure>
+              <a href="https://special-kode.itch.io/college-and-deans">
+                <img src="/images/games/cad/01.png" alt="College And Deans" class="pixelimage">
+              </a>
+              <figcaption>College And Deans</figcaption>
+            </figure>
+            <figure>
+              <a href="https://danieljimenezmorales.itch.io/cellularinvaders">
+                <img src="/images/games/cllinv/01.png" alt="Cellular Invaders">
+              </a>
+              <figcaption>Cellular Invaders</figcaption>
+            </figure>
+          </div>
+          <br>
+          <a class="viewmore" href="/projects/videogames.html">View more...</a>
+        </article>
+        <div class="separator"></div>
+        <article class="center">
+          <h1>Other Projects</h1>
+          <p>
+            There are some other projects that I've also done during both my
+            bachelor degree and my free time. If you are interested in any of the
+            projects, you can go to the page linked below to see all the projects
+            I've developed. Feel free to check and use the source code of the
+            project if it's available.
+          </p>
+          <br>
+          <a class="viewmore" href="/projects/all.html">View more...</a>
         </article>
       </section>
     </main>
@@ -28,5 +161,6 @@
     </footer>
     <script type="text/javascript" src="/scripts/bookendsloader.js"></script>
     <script type="text/javascript" src="/scripts/sticky.js"></script>
+    <script defer type="text/javascript" src="/scripts/skillslevel.js"></script>
   </body>
 </html>
