@@ -1,0 +1,17 @@
+.tech-image {
+  width: 64px;
+  height: 64px;
+  margin-top: 4px;
+}
+
+.skill-level {
+  font-size: 0;
+}
+
+#table_legend {
+  width: 50%;
+}
+
+#table_legend td:first-child {
+  width: 10%;
+}
