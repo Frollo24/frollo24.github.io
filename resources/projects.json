@@ -1,6 +1,33 @@
 {
   "videogames": [
-    
+    {
+      "title" : "Cellular Invaders",
+      "summary": "Cellular Invaders is a roguelike microcellular experience in which you must quickly escape from dangerous antibodies as you navigate your way through the cellular world. Your only goal is to destroy as much cell cores as you can.  Dodge enemies and get coins to buy powerups.",
+      "imageFolder" : "/images/games/cllinv/",
+      "viewmoreSrc" : "https://danieljimenezmorales.itch.io/cellularinvaders",
+      "viewmoreText" : "View on Itch.io"
+    },
+    {
+      "title" : "Golding Over It",
+      "summary": "A basic game made with Unreal Engine 4 Blueprints that I plan to remake on Unreal Engine 5. In this game you, as Gold Man, must collect 3 core stones and reach a bonfire to win. The core stones are distributed throughout the tower. Fire and lava destroy you, and gold coins recover you.",
+      "imageFolder" : "/images/games/goi/",
+      "viewmoreSrc" : "#",
+      "viewmoreText" : "Not available yet"
+    },
+    {
+      "title" : "Monkey Chairtory",
+      "summary": "Monkey Chairtory is a AI simulator where some gorillas work in a chair factory, collaborating with humans. Humans can patrol and supply food to the gorillas. On the other hand, gorillas work moving logs, treating them into wooden planks, and creating chairs with those planks.",
+      "imageFolder" : "/images/games/mkch/",
+      "viewmoreSrc" : "https://github.com/MarioSimon/MonkeyChairtory",
+      "viewmoreText" : "View on GitHub"
+    },
+    {
+      "title" : "Blood Arrows",
+      "summary": "Blood Arrows is an online co-operative (or 1 player) game in which you will have to defeat waves of enemies. You will play as a member of the Blood Arrows along with up to 3 other friends, having to work together to defend a city that is under attack by monsters from space.",
+      "imageFolder" : "/images/games/blar/",
+      "viewmoreSrc" : "https://souldream.itch.io/blood-arrows",
+      "viewmoreText" : "View on Itch.io"
+    }
   ],
   "computergraphics": [
     {
