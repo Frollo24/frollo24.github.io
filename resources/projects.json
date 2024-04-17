@@ -2,7 +2,7 @@
   "videogames": [
     {
       "title" : "Cellular Invaders",
-      "summary": "Cellular Invaders is a roguelike microcellular experience in which you must quickly escape from dangerous antibodies as you navigate your way through the cellular world. Your only goal is to destroy as much cell cores as you can.  Dodge enemies and get coins to buy powerups.",
+      "summary": "Cellular Invaders is a roguelike microcellular experience in which you must quickly escape from dangerous antibodies as you navigate your way through the cellular world. Your only goal is to destroy as much cell cores as you can. Dodge enemies and get coins to buy powerups.",
       "imageFolder" : "/images/games/cllinv/",
       "viewmoreSrc" : "https://danieljimenezmorales.itch.io/cellularinvaders",
       "viewmoreText" : "View on Itch.io"
@@ -27,19 +27,33 @@
       "imageFolder" : "/images/games/blar/",
       "viewmoreSrc" : "https://souldream.itch.io/blood-arrows",
       "viewmoreText" : "View on Itch.io"
+    },
+    {
+      "title" : "College and Deans",
+      "summary": "College and Deans is a roguelike game with an academic setting in which where you have to face enemies and find a way to the next level before you run out of time. In this game, you have to be fast and fights are not always welcome, as your time per level is also your life and any damage will substract seconds.",
+      "imageFolder" : "/images/games/cad/",
+      "viewmoreSrc" : "https://special-kode.itch.io/college-and-deans",
+      "viewmoreText" : "View on Itch.io"
+    },
+    {
+      "title" : "Pole Position 2",
+      "summary": "This was an assignment I had to done on my Videogame Design and Development degree that was related to the development of multiplayer games. In this project I worked mainly with the Mirror networking library and created a very basic Pole Position clone.",
+      "imageFolder" : "/images/games/pp2/",
+      "viewmoreSrc" : "https://github.com/Frollo24/PolePosition2",
+      "viewmoreText" : "View on GitHub"
     }
   ],
   "computergraphics": [
     {
       "title" : "Unity Grass Shader",
-      "summary": "This is an aside project which I decided to do in order to extend one of my Computer Graphics Master Degree's assigments. On this assignment I have to implement a custom grass shader with Unity shaders, using geometry and tessellation shaders, and I decided to do it using some URP features and explore other grass rendering techniques.",
+      "summary": "This is an aside project which I decided to do in order to extend one of my Computer Graphics Master Degree's assignments. On this assignment I have to implement a custom grass shader with Unity shaders, using geometry and tessellation shaders, and I decided to do it using some URP features and explore other grass rendering techniques.",
       "imageFolder" : "/images/computergraphics/ugs/",
       "viewmoreSrc" : "https://github.com/Frollo24/UnityGrassShader",
       "viewmoreText" : "View on GitHub"
     },
     {
       "title" : "Magma Engine",
-      "summary": "Magma Engine is a rendering engine focused on both performance and ease of use which I started doing while I'm studying a Computer Graphics Masters Degree. This engine also has been used for one of the assigments I had to done, where I implemented some rendering techniques (Depth prepass, SSAO, Physically Based Rendering, Skybox rendering...).",
+      "summary": "Magma Engine is a rendering engine focused on both performance and ease of use which I started doing while I'm studying a Computer Graphics Masters Degree. This engine also has been used for one of the assignments I had to done, where I implemented some rendering techniques (Depth prepass, SSAO, Physically Based Rendering, Skybox rendering...).",
       "imageFolder" : "/images/computergraphics/mgm/",
       "viewmoreSrc" : "https://github.com/Frollo24/Magma",
       "viewmoreText" : "View on GitHub"
@@ -48,8 +62,15 @@
       "title" : "OpenEngine",
       "summary": "OpenEngine is the name that I gave to my Bachelor Thesis project. The idea behind these render engine was to create a functional render engine with a good API abstraction, Physically Based Rendering, an editor and use the Vulkan Raytracing Pipeline. However, I've decided to refactor it as a module of a project to teach computer graphics.",
       "imageFolder" : "/images/computergraphics/oen/",
-      "viewmoreSrc" : "#",
+      "viewmoreSrc" : "https://www.linkedin.com/posts/adri%C3%A1n-salgado-jimeno-2771a3233_hola-os-quer%C3%ADa-mostrar-openengine-un-motor-activity-6991750586358501376-yFLo/",
       "viewmoreText" : "Not available yet"
+    },
+    {
+      "title" : "Luminx",
+      "summary": "Luminx is an OpenGL application set created for testing and exploring various light effects (Blinn-Phong, Cel Shading, SSAO, Fog, Bloom...) that I'm currently developing. It uses OpenGL and a basic rendering abstraction layer, as I want to focus on shading techniques rather than performance or good OpenGL abstraction.",
+      "imageFolder" : "/images/computergraphics/lum/",
+      "viewmoreSrc" : "https://github.com/Frollo24/Luminx",
+      "viewmoreText" : "View on GitHub"
     }
   ]
 }
