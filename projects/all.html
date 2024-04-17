@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/sticky.css">
+    <link rel="stylesheet" href="/css/pages/projects-all.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <header id="header">
@@ -15,10 +17,30 @@
     <main>
       <section>
         <article class="center">
-          <h1 id="welcome">Welcome!</h1>
+          <h1 id="welcome">All projects</h1>
           <p>
-            At the moment this website is under development. Maybe if you reload it enough times, it will change ;)
+            In this page you can see all the projects I have done throughout my
+            career as a game developer and computer graphics enthusiast. As always,
+            feel free to check and use the source code if it's available. Also, if
+            you are interested in knowing more about my projects, you can contact
+            me via <a href="https://es.linkedin.com/in/adri%C3%A1n-salgado-jimeno-2771a3233">LinkedIn</a>
+            or through the <a href="/contact.html">contact</a> page.
           </p>
+        </article>
+        <article class="project-list">
+          <section>
+            <h1 id="project-section">Computer Graphics</h1>
+            <div id="computergraphics">
+              <!-- Included by JavaScript -->
+            </div>
+          </section>
+          <div class="separator"></div>
+          <section>
+            <h1 id="project-section">Videogames</h1>
+            <div id="videogames">
+              <!-- Included by JavaScript -->
+            </div>
+          </section>
         </article>
       </section>
     </main>
@@ -27,5 +49,6 @@
     </footer>
     <script type="text/javascript" src="/scripts/bookendsloader.js"></script>
     <script type="text/javascript" src="/scripts/sticky.js"></script>
+    <script type="module" src="/scripts/allprojects.js"></script>
   </body>
 </html>
