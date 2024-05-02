@@ -5,21 +5,24 @@
       "summary": "Cellular Invaders is a roguelike microcellular experience in which you must quickly escape from dangerous antibodies as you navigate your way through the cellular world. Your only goal is to destroy as much cell cores as you can. Dodge enemies and get coins to buy powerups.",
       "imageFolder" : "/images/games/cllinv/",
       "viewmoreSrc" : "https://danieljimenezmorales.itch.io/cellularinvaders",
-      "viewmoreText" : "View on Itch.io"
+      "viewmoreText" : "View on Itch.io",
+      "favorite": 10
     },
     {
       "title" : "Golding Over It",
       "summary": "A basic game made with Unreal Engine 4 Blueprints that I plan to remake on Unreal Engine 5. In this game you, as Gold Man, must collect 3 core stones and reach a bonfire to win. The core stones are distributed throughout the tower. Fire and lava destroy you, and gold coins recover you.",
       "imageFolder" : "/images/games/goi/",
       "viewmoreSrc" : "#",
-      "viewmoreText" : "Not available yet"
+      "viewmoreText" : "Not available yet",
+      "favorite": 7
     },
     {
       "title" : "Monkey Chairtory",
       "summary": "Monkey Chairtory is a AI simulator where some gorillas work in a chair factory, collaborating with humans. Humans can patrol and supply food to the gorillas. On the other hand, gorillas work moving logs, treating them into wooden planks, and creating chairs with those planks.",
       "imageFolder" : "/images/games/mkch/",
       "viewmoreSrc" : "https://github.com/MarioSimon/MonkeyChairtory",
-      "viewmoreText" : "View on GitHub"
+      "viewmoreText" : "View on GitHub",
+      "favorite": 4
     },
     {
       "title" : "Blood Arrows",
@@ -49,28 +52,32 @@
       "summary": "This is an aside project which I decided to do in order to extend one of my Computer Graphics Master Degree's assignments. On this assignment I have to implement a custom grass shader with Unity shaders, using geometry and tessellation shaders, and I decided to do it using some URP features and explore other grass rendering techniques.",
       "imageFolder" : "/images/computergraphics/ugs/",
       "viewmoreSrc" : "https://github.com/Frollo24/UnityGrassShader",
-      "viewmoreText" : "View on GitHub"
+      "viewmoreText" : "View on GitHub",
+      "favorite": 10
     },
     {
       "title" : "Magma Engine",
       "summary": "Magma Engine is a rendering engine focused on both performance and ease of use which I started doing while I'm studying a Computer Graphics Masters Degree. This engine also has been used for one of the assignments I had to done, where I implemented some rendering techniques (Depth prepass, SSAO, Physically Based Rendering, Skybox rendering...).",
       "imageFolder" : "/images/computergraphics/mgm/",
       "viewmoreSrc" : "https://github.com/Frollo24/Magma",
-      "viewmoreText" : "View on GitHub"
+      "viewmoreText" : "View on GitHub",
+      "favorite": 7
     },
     {
       "title" : "OpenEngine",
       "summary": "OpenEngine is the name that I gave to my Bachelor Thesis project. The idea behind these render engine was to create a functional render engine with a good API abstraction, Physically Based Rendering, an editor and use the Vulkan Raytracing Pipeline. However, I've decided to refactor it as a module of a project to teach computer graphics.",
       "imageFolder" : "/images/computergraphics/oen/",
       "viewmoreSrc" : "https://www.linkedin.com/posts/adri%C3%A1n-salgado-jimeno-2771a3233_hola-os-quer%C3%ADa-mostrar-openengine-un-motor-activity-6991750586358501376-yFLo/",
-      "viewmoreText" : "Not available yet"
+      "viewmoreText" : "Not available yet",
+      "favorite": 5
     },
     {
       "title" : "Luminx",
       "summary": "Luminx is an OpenGL application set created for testing and exploring various light effects (Blinn-Phong, Cel Shading, SSAO, Fog, Bloom...) that I'm currently developing. It uses OpenGL and a basic rendering abstraction layer, as I want to focus on shading techniques rather than performance or good OpenGL abstraction.",
       "imageFolder" : "/images/computergraphics/lum/",
       "viewmoreSrc" : "https://github.com/Frollo24/Luminx",
-      "viewmoreText" : "View on GitHub"
+      "viewmoreText" : "View on GitHub",
+      "favorite": 6
     }
   ]
 }
