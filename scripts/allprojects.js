@@ -1,8 +1,12 @@
+import { sortProjectFavorite } from './sortfunctions.js'
+
 $.getJSON('../resources/projects.json', function(json){
   function insertProjects(projectListName){
     var projectList = json[projectListName];
     var projectSection = document.getElementById(projectListName);
     var projectAmount = projectList.length;
+
+    projectList = sortProjectFavorite(projectList);
 
     for (let i = 0; i < projectAmount; i++) {
       if (i % 2 == 0){
@@ -44,7 +48,7 @@ $.getJSON('../resources/projects.json', function(json){
       }
     }
   }
-  
+
   insertProjects("computergraphics");
   insertProjects("videogames");
 });

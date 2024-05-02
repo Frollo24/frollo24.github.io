@@ -1,3 +1,5 @@
+import { sortSkillsByLevel } from './sortfunctions.js'
+
 $.getJSON('../resources/skills.json', function(json){
   const skills = json;
 
@@ -38,10 +40,10 @@ $.getJSON('../resources/skills.json', function(json){
     `;
   }
 
-  loadTables(table_languages, "Languages", skills.languages);
-  loadTables(table_apis, "APIs", skills.apis);
-  loadTables(table_engines, "Engines", skills.engines);
-  loadTables(table_frameworks, "Frameworks", skills.frameworks);
+  loadTables(table_languages, "Languages", sortSkillsByLevel(skills.languages));
+  loadTables(table_apis, "APIs", sortSkillsByLevel(skills.apis));
+  loadTables(table_engines, "Engines", sortSkillsByLevel(skills.engines));
+  loadTables(table_frameworks, "Frameworks", sortSkillsByLevel(skills.frameworks));
 
   let script = document.createElement('script');
   script.src = '/scripts/skillslevel.js';

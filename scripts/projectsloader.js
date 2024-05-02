@@ -1,3 +1,5 @@
+import { sortProjectFavorite } from './sortfunctions.js'
+
 var path = window.location.pathname;
 var page = path.split("/").pop();
 var pagename = page.split(".")[0];
@@ -9,6 +11,7 @@ $.getJSON('../resources/projects.json', function(json){
   const projectAmount = 3;
 
   var projectList = json[projectListName];
+  projectList = sortProjectFavorite(projectList);
 
   console.log(projectList[0]);
 
