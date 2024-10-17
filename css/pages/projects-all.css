@@ -43,7 +43,6 @@ figure figcaption {
   flex: 3;
   margin: auto;
   padding: 5px;
-  text-align: center;
 }
 
 .project-text p {
@@ -52,4 +51,48 @@ figure figcaption {
 
 #project-section {
   margin-bottom: 30px;
+}
+
+@media (max-width: 1100px) {
+  .project figure img {
+    width: min(35vw, 450px);
+    height: min(35vw, 450px);
+  }
+
+  .project h1 {
+    font-size: 48px;
+  }
+
+  #project-section {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project figure {
+    flex: 1;
+  	text-align: center;
+    margin-top: 50px;
+  }
+
+  .project figure img {
+    width: min(35vw, 450px);
+    height: min(35vw, 450px);
+  }
+
+  .project .project-text {
+    flex: 1;
+  }
+
+  .project h1 {
+    font-size: 36px;
+  }
+
+  #project-section {
+    font-size: 36px;
+  }
 }

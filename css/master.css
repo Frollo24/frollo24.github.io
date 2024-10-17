@@ -29,7 +29,25 @@ nav ul li {
 
 li > a {
   display: inline-block;
-  padding: 30px 80px;
+  padding: 30px clamp(20px, 4.5vw, 80px);
+}
+
+@media (max-width: 1100px) {
+  li > a {
+    display: inline-block;
+    padding: 30px clamp(20px, 3.25vw, 80px);
+  }
+}
+
+@media (max-width: 700px) {
+  nav ul li {
+    display: block;
+    font-size: 1.3rem;
+  }
+
+  li > a {
+    padding: 7px 10px;
+  }
 }
 
 main {
@@ -50,6 +68,35 @@ section p {
   padding-top: 8px;
   width: 60%;
   font-size: 1.25rem;
+  text-align: justify;
+  text-align-last: center;
+}
+
+@media (max-width: 1100px) {
+  section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  section {
+    margin-top: 120px;
+  }
+
+  section h1 {
+    font-size: 36px;
+  }
+
+  section p {
+    width: 85%;
+    font-size: 1rem;
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  p + p {
+    padding-top: 12px;
+  }
 }
 
 section .viewmore {
@@ -79,4 +126,16 @@ footer {
   margin: auto;
   padding: 310px 0;
   width: 90%;
+}
+
+@media (max-width: 700px) {
+  .separator {
+    height: 200px;
+  }
+
+  .center {
+    margin: auto;
+    padding: 120px 0;
+    width: 90%;
+  }
 }

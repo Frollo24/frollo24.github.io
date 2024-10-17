@@ -1,15 +1,19 @@
 import { sortProjectFavorite } from './sortfunctions.js'
 
-$.getJSON('../resources/projects.json', function(json){
+const widthThreshold = 700;
+
+var insertProjectsFromJson = function(json){
   function insertProjects(projectListName){
     var projectList = json[projectListName];
     var projectSection = document.getElementById(projectListName);
+    projectSection.innerHTML = "";
     var projectAmount = projectList.length;
 
     projectList = sortProjectFavorite(projectList);
+    var viewportWidth = window.innerWidth;
 
     for (let i = 0; i < projectAmount; i++) {
-      if (i % 2 == 0){
+      if (viewportWidth < widthThreshold || i % 2 == 0){
         projectSection.innerHTML += `
         <div class="project">
           <figure>
@@ -51,4 +55,22 @@ $.getJSON('../resources/projects.json', function(json){
 
   insertProjects("computergraphics");
   insertProjects("videogames");
-});
+};
+
+$.getJSON('../resources/projects.json', insertProjectsFromJson);
+
+var recallInsertProjects = function() {
+  $.getJSON('../resources/projects.json', insertProjectsFromJson);
+}
+
+var isMobileScreen = false;
+window.onresize = function() {
+  if (isMobileScreen && window.innerWidth > widthThreshold){
+    isMobileScreen = false;
+    recallInsertProjects();
+  }
+  if (!isMobileScreen && window.innerWidth <= widthThreshold){
+    isMobileScreen = true;
+    recallInsertProjects();
+  }
+}

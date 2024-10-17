@@ -5,7 +5,13 @@
 
 #about_me figure img {
   border-radius: 50%;
-  width: 480px;
-  height: 480px;
+  width: min(90vw, 480px);
+  height: min(90vw, 480px);
   transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 700px) {
+  #about_me {
+    padding: max(10vw, 8vh) 0;
+  }
 }

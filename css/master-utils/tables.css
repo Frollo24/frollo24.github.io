@@ -6,7 +6,7 @@ table, tr, th, td {
 }
 
 table {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -24,4 +24,46 @@ thead tr th {
 td {
   width: 25%;
   padding: 0 4px;
+}
+
+#tech_tables td:first-child {
+  width: 15%;
+}
+
+@media (max-width: 1100px) {
+  table {
+    width: 100%;
+  }
+
+  td {
+    padding: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  thead tr th {
+    font-size: 0.75rem;
+    padding: 3px 0;
+  }
+
+  td {
+    width: 30%;
+    font-size: 12px;
+  }
+
+  #tech_tables td:first-child {
+    width: 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  #starImage {
+    width: 12px;
+    height: 12px;
+  }
+
+  thead tr th {
+    font-size: 0.7rem;
+    padding: 3px 0;
+  }
 }
